@@ -1,7 +1,7 @@
 # kubernetes-baremetal-manual-install
 
 ###### Using only Open Source Tools
-############ Kubernetes The Hard Way
+###### Kubernetes The Hard Way
 
 ## Install kubectl
 
