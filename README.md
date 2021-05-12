@@ -1,15 +1,7 @@
 # kubernetes-baremetal-manual-install
 
-
-# Metal Kubes 
-## Install Kubernetes Cluster on Bare Metal Machines
-### Using only Open Source Tools
-
-    Disclaimer: This document is *not* intended for Production use. Best Practices recommended at kubernetes.io and other sites must be charted. Motivated by Kelsey Hightower doc - Kubernetes The Hard Way
-
-Principal drive for crafting this manuscript is for my reference. I created multiple Kubernetes Clusters using contrasting hardware. The document proved very beneficial when setting up OnPrem Kubernetes Cluster at work. I hope you will find it worthwhile.
-
-OnPrem Kubernetes setup creates its own challenges compared to Cloud based setup (EKS / GKE / Azure). Some of these challenges, which I will cover in further posts, were setting up ELB (covered here), setting up Persistent Volume (I used first NFS, then Rook/Ceph), using Private Docker registry with or without TLS enabled (containerd, required in 1.20.2, is not very friendly with Private Docker), locking Kubernetes secrets in a vault like Hashicorp vault.
+###### Using only Open Source Tools
+############ Kubernetes The Hard Way
 
 ## Install kubectl
 
